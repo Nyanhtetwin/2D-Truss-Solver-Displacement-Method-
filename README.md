@@ -1,11 +1,11 @@
 2D Truss Finite Element Analysis
-This repository contains a set of MATLAB scripts for performing a simple 2D truss analysis using the Finite Element Method (FEM). The main script, SolveTruss.m, orchestrates the entire analysis, from defining the problem to calculating displacements, stresses, and reaction forces.
+This repository contains a set of MATLAB scripts for performing a simple 2D truss analysis using the Finite Element Method (FEM). The main script, truss_example.m, orchestrates the entire analysis, from defining the problem to calculating displacements, stresses, and reaction forces.
 
 Getting Started
 To run the analysis, simply place all the .m files in the same directory and execute the SolveTruss.m script in MATLAB. The script will output the results directly to the Command Window.
 
 File Descriptions
-SolveTruss.m:
+truss_example.m:
 The main script that defines the truss geometry, material properties, and applied loads. It calls the other functions to build the global stiffness matrix, solve for nodal displacements, and post-process the results.
 
 Bar2D2Node_Stiffness_fromCoords.m:
